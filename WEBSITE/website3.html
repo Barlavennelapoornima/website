@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+<link rel="stylesheet"href="style.css"/>
+
+</head>
+<body>
+    <div class="top-nav" id="home">
+        <div class="container-fluid">
+          <div id="start" class="row justify-content-between">
+            <div class="col-auto text-light">
+              <span
+                ><i class="fa-regular fa-envelope ps-5"></i
+                >vennelachinni610@gmail.com</span
+              >
+              <span><i class="fa-solid fa-phone-volume ps-2"></i>9392848821</span>
+            </div>
+            <div class="col-auto social-icons text-light">
+              <a href="#"
+                ><i id="icon" class="fa-brands fa-facebook-f px-2"></i
+              ></a>
+              <a href="#"><i id="icon" class="fa-brands fa-twitter px-2"></i></a>
+              <a href="#"
+                ><i id="icon" class="fa-brands fa-instagram px-2"></i
+              ></a>
+              <a href="#"
+                ><i id="icon" class="fa-brands fa-pinterest px-2"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><h2 class="edu ps-5 ms-3">Edu Progressor</h2></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link px-3" href="website.html">Student Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#">Faculty Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="website2.html">Admin Login</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="btn btn-danger ms-3 px-3"
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+      <div class="wrapper">
+        <div class="container main">
+          <div class="row" id="row">
+            <div class="col-md-6 company-image">
+              <div class="text">
+                <p class="join">
+                  Join the community of developers <i>- modern</i>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 right"id="employeecard">
+              <div class="input-box">
+                <br /><br />
+                <header>Employee login</header>
+  
+                <div class="input-field">
+                  <input
+                    type="text"
+                    class="input"
+                    id="email"
+                    required
+                    autocomplete="off"
+                  />
+                  <label for="email">Email</label>
+                </div>
+                <div class="input-field">
+                  <input type="password" class="input" id="password" required />
+                  <label for="password">Password</label>
+                </div>
+                <div class="input-field">
+                  <input type="submit" class="submit" value="Sign up" />
+                </div>
+                <div class="signin" id="forgot">
+                  <span> <a href="forgot-password2.html">Forgot password</a></span
+                  ><br /><br />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="footer text-center text-light mt-5">
+        <div class="container-fluid">
+          <div class="row gy-5">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h2 class="progressor">Edu Progressor.</h2>
+              <p class="para mt-3">
+                Our platform is a cutting-edge educational and career hub, uniting
+                students, institutions, faculties, and employers. It streamlines
+                education-to-career transitions with features like event
+                management, portfolios, feedback loops, and instant notifications.
+                It's the go-to solution for a seamless learning and career
+                journey.
+              </p>
+              <i id="fb" class="fa-brands fa-facebook mt-4"></i>
+              <i id="fb" class="fa-brands fa-twitter"></i>
+              <i id="fb" class="fa-brands fa-instagram"></i>
+              <i id="fb" class="fa-brands fa-pinterest"></i>
+              <hr class="hr mt-5" />
+              <p class="para1 mt-3">Copyright@2023. All rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- contact page -->
+      <!-- Contact Modal -->
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="false"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body p-0">
+              <div class="container-fluid">
+                <div class="row gy-4">
+                  <div
+                    id="background-image"
+                    class="col-lg-4 col-sm-12 bg-cover"
+                    style="
+                      background-image: url('https://pbs.twimg.com/media/GFP-ma3aEAEw_p9.jpg');
+                      min-height: fit;
+                      min-width: fit;
+                    "
+                  >
+                    <!-- Content for the left column goes here -->
+                  </div>
+                  <div class="col-lg-8">
+                    <form class="p-lg-5 col-12 row g-3">
+                      <div>
+                        <h1>Get in touch</h1>
+                        <p>
+                          Feel free to contact us, and we will get back to you as
+                          soon as possible
+                        </p>
+                      </div>
+                      <div class="col-lg-6">
+                        <label for="firstName" class="form-label"
+                          >First name</label
+                        >
+                        <input
+                          id="form"
+                          type="text"
+                          class="form-control"
+                          placeholder="Jon"
+                          id="firstName"
+                          aria-describedby="firstNameHelp"
+                        />
+                      </div>
+                      <div class="col-lg-6">
+                        <label for="lastName" class="form-label">Last name</label>
+                        <input
+                          id="form"
+                          type="text"
+                          class="form-control"
+                          placeholder="Doe"
+                          id="lastName"
+                          aria-describedby="lastNameHelp"
+                        />
+                      </div>
+                      <div class="col-12">
+                        <label for="email" class="form-label"
+                          >Email address</label
+                        >
+                        <input
+                          id="form"
+                          type="email"
+                          class="form-control"
+                          placeholder="Johndoe@example.com"
+                          id="email"
+                          aria-describedby="emailHelp"
+                        />
+                      </div>
+                      <div class="col-12">
+                        <label for="message" class="form-label"
+                          >Enter Message</label
+                        >
+                        <textarea
+                          id="form"
+                          name="message"
+                          placeholder="This is looking great and nice."
+                          class="form-control"
+                          id="message"
+                          rows="4"
+                        ></textarea>
+                      </div>
+  
+                      <div class="col-12">
+                        <button
+                          id="message"
+                          type="submit "
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                          class="btn btn-danger"
+                        >
+                          Send Message
+                        </button>
+                      </div>
+                      <br /><br />
+                    </form>
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>x
+</body>
+
+</html>
